@@ -1,6 +1,19 @@
 Speak::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
+ get "home/index"
+ match '/new'=>"home#new"
+ match '/alert'=>"home#alert"
+ match '/listen'=>"home#listen"
+ match '/book_list'=>"home#book_list"
+ match '/crosslink'=>"home#crosslink"
+ match '/home_screen'=>"home#home_screen"
+ match '/memorize'=>"home#memorize"
+ match '/recording'=>"home#recording"
+ match '/recording_listing'=>"home#recording_listing"
+ match '/search_result'=>"home#search_result"
+ match '/info'=>"home#info"
+ match '/feedback'=>"home#feedback"
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
