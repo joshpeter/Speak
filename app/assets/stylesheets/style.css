@@ -152,33 +152,38 @@ td{
 	margin-left:10px;
 	margin-right:10px;
 }
-.chapter-btn
-{
-	width:60px;
-	
-	font-size:50px;
-	background: #89B286;
-	text-align:center;
-	border: 3px solid white;
-	margin-top:25px;
-	margin-left:10px;
-	margin-right:10px;
-	margin-bottom: -10px;
-}
-.play-btn
+.smiley-btn 
 {
 	width:50px;
 	height:50px;
 	border-radius:50%;
 	font-size:50px;
-	background: #89B286;
+	font-weight: bold !important;
 	text-align:center;
 	border: 3px solid white;
-	margin-top:15px;
+	margin-top:0px;
+	margin-left:10px;
+	margin-right:10px;
+	
+
+}
+
+.memory-play .play-btn
+{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	font-size:30px;
+	
+	text-align:center;
+	border: 3px solid white;
+	margin-top:-15px;
 	margin-left:10px;
 	margin-right:10px;
 }
-
+.memory-play .fa{
+	line-height: 1.5;
+}
 .play-controls1 .fa{
 	margin-top:10px;
 	color:white;
