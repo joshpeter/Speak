@@ -21,41 +21,41 @@
 		<!-- Ends Custom code  -->
 
 		<script>
-		$(document).ready(function(){
+								$(document).ready(function(){
 
 
-//for reading the id
-		  $('.ad').click(function() {
-		      var id = $(this).attr('id');
-		      //alert(id);
-		      //play audio
-		       var audioElement = document.createElement('audio');
-			          audioElement.setAttribute('src', 'sound/'+id+'.mp3');
-			          audioElement.setAttribute('autoplay', 'autoplay');
-			          //audioElement.load()
-			          $.get();
-			          audioElement.addEventListener("load", function() {
-			          audioElement.play();
-        }, true);
-        audioElement.play();
+												//for reading the id
+								  $('.ad').click(function() {
+								      var id = $(this).attr('id');
+								      //alert(id);
+								      //play audio
+								       var audioElement = document.createElement('audio');
+									          audioElement.setAttribute('src', 'sound/'+id+'.mp3');
+									          audioElement.setAttribute('autoplay', 'autoplay');
+									          //audioElement.load()
+									          $.get();
+									          audioElement.addEventListener("load", function() {
+									          audioElement.play();
+						        }, true);
+						        audioElement.play();
 
-		      //END to play audio
-		     // $container.cycle(id.replace('pager_', ''));
-		      return false;
-		});
-    //END for reading the id
-    alert('c');
-		$('.ad').click(function() {
-		//alert('d');
-			var id = $(this).attr('id');
-			//alert(id);
-			$('select[name="bookslist"] option[value='+id+']').attr("selected","selected");
-			//$('select[name="bookslist"] option:selected').attr("selected",null);
-			//$("select[name="bookslist").selectmenu('refresh');
-		});
+								      //END to play audio
+								     // $container.cycle(id.replace('pager_', ''));
+								      return false;
+									});
+							    //END for reading the id
+							    alert('c');
+									$('.ad').click(function() {
+									//alert('d');
+										var id = $(this).attr('id');
+										//alert(id);
+										$('select[name="bookslist"] option[value='+id+']').attr("selected","selected");
+										//$('select[name="bookslist"] option:selected').attr("selected",null);
+										//$("select[name="bookslist").selectmenu('refresh');
+								});
 
 
-}); //End document
+						}); //End document
 		</script>
 		<style>
 		.highlight{
@@ -80,7 +80,7 @@
 </header>
 <div class="container">
 
-    
+
 	 <div class="sel-size "><!--Drop Downs start -->
 
 		    <select name="bookslist">
@@ -104,7 +104,7 @@
 				<option value="4">4</option>
 			</select></center><!--Ends Drop Downs  -->
 			</div>
-		
+
     <div class="col-md-4 col-xs-12   col-md-offset-4 main-panel books-list">
 
 		<div class="col-md-12 col-sm-4 col-xs-4 chapter-btn ad" id="b01"><h6>Mat </h6>
@@ -148,7 +148,7 @@
 
 	</div>
     <div class="col-md-12  play-controls1 col-md-offset-5"> <!--Not alligned -->
-		
+
 		<div class="col-md-1 col-sm-1 col-xs-1 button-bg"><i class=" fa fa-play"></i>
 	</div>
 

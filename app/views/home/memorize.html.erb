@@ -68,7 +68,7 @@
 		</div>
 	</div>	<!--ENDS memory-verse -->
 	<div class="col-md-12 col-sx-12 col-md-offset-6">
-		<span>Result : <i id="result"></i></span>
+		<span id="result"></span>
 	</div>
 </div><!--ENDS Container-->
 <footer>
@@ -76,13 +76,16 @@
 </footer>
 <script type="text/javascript">
 $(document).ready(function(){
-	var $n = 0;
+	var n = 0;
     $(".fa-smile-o").click(function(){
     	alert("Wow!!!");
-        $n =$n+1;
-        alert($n);
+        n+=1;
+        alert(n);
+        $("#result").text('calculated value');
         //$n.val(Number($n.val())+1);
-        document.getElementById('result').text = $n;
+       // document.getElementById('result').html = n.val();
+        document.getElementById('result').html = "Wow!";
+       // $('#result').html(n);
     }); 
 });
 </script>
